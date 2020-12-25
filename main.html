@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RedStore</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a81368914c.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="header">    
+        <div class="container">
+                <div class="navbar">
+                    <div class="logo">
+                        <a href="main.html"><img src="images/logo.png" alt="logo" width="125px"></a>
+                    </div>
+                    <nav>
+                        <ul id="MenuItems">
+                            <li><a href="main.html"><i class="fas fa-home"></i> Ana Səhifə</a></li>
+                            <li><a href="products.html"><i class="fab fa-product-hunt"></i> Məhsullar</a></li>
+                            <li><a href="#about"><i class="far fa-address-card"></i> Haqqımızda</a></li>
+                            <li><a href="contact.html"><i class="fas fa-phone"></i> Əlaqə</a></li>
+                            <li><a href="login.html"><i class="fas fa-sign-in-alt"></i> Daxil ol</a></li>
+                        </ul>
+                    </nav>
+                    <a href="cart.html"><img src="images/cart.png" alt="" width="30px" height="30px"></a>
+                    <img src="  images/menu.png" class="menu-icon" onclick="menutoggle()">
+                </div>
+            <button class="back-to-top-btn"><i class="fas fa-angle-double-up"></i></button>
+            <div class="row">
+                <div class="col-2">
+                    <h1>Məşqinizə Yeni<br>Bir Stil Verin!</h1>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut beatae quisquam aperiam a nam vero deleniti sit at culpa nemo aspernatur nisi iure praesentium officia suscipit, exercitationem officiis nostrum illo!</p>
+                    <a href="#" class="btn">İndi araşdırın &#8594;</a>
+                </div>
+                <div class="col-2">
+                    <img src="images/image1.png">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Seçilmiş kateqoriyalar -->
+    <div class="categories">
+        <div class="small-container">
+            <h2 class="title">Ən Çox Satılan Kateqoriyalar</h2>
+            <div class="row">
+                <div class="col-3">
+                    <img src="images/category-1.jpg" class="pic">
+                </div>
+                <div class="col-3">
+                    <img src="images/category-2.jpg" class="pic">
+                </div>
+                <div class="col-3">
+                    <img src="images/category-3.jpg" class="pic">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Seçilmiş Məhsullar -->
+    <div class="small-container">
+        <h2 class="title">Seçilmiş Məhsullar</h2>
+        <div class="row">
+            <div class="col-4">
+                <a href="product-details.html"><img src="images/product-1.jpg" alt=""></a>
+                <h4>Qırmızı Rəngli Puma Naxışlı Köynək</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>24.99 &#8380;</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product-2.jpg" alt="">
+                <h4>Qırmızı Rəngli Puma Naxışlı Köynək</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>24.99 &#8380;</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product-3.jpg" alt="">
+                <h4>Qırmızı Rəngli Puma Naxışlı Köynək</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>24.99 &#8380;</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product-4.jpg" alt="">
+                <h4>Qırmızı Rəngli Puma Naxışlı Köynək</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>24.99 &#8380;</p>
+            </div>
+        </div>
+        <!-- Yeni Məhsullar -->
+        <h2 class="title">Yeni Məhsullar</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="images/product-5.jpg" alt="">
+                <h4>Qırmızı Rəngli Puma Naxışlı Köynək</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>24.99 &#8380;</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product-6.jpg" alt="">
+                <h4>Qırmızı Rəngli Puma Naxışlı Köynək</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>24.99 &#8380;</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product-7.jpg" alt="">
+                <h4>Qırmızı Rəngli Puma Naxışlı Köynək</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>24.99 &#8380;</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product-8.jpg" alt="">
+                <h4>Qırmızı Rəngli Puma Naxışlı Köynək</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>24.99 &#8380;</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <img src="images/product-9.jpg" alt="">
+                <h4>Qırmızı Rəngli Puma Naxışlı Köynək</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>24.99 &#8380;</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product-10.jpg" alt="">
+                <h4>Qırmızı Rəngli Puma Naxışlı Köynək</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>24.99 &#8380;</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product-11.jpg" alt="">
+                <h4>Qırmızı Rəngli Puma Naxışlı Köynək</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>24.99 &#8380;</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product-12.jpg" alt="">
+                <h4>Qırmızı Rəngli Puma Naxışlı Köynək</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>24.99 &#8380;</p>
+            </div>
+        </div>
+    </div>
+    <!-- Təklif -->
+    <div class="offer">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-2">
+                    <img src="images/exclusive.png" class="offer-img">
+                </div>
+                <div class="col-2">
+                    <p>Yalnız 'RedStore'da Mövcuddur</p>
+                    <h1>Smart Band 4</h1>
+                    <small>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores ipsam, maxime necessitatibus corporis beatae omnis incidunt? Nam impedit, perferendis quos adipisci, reiciendis natus nisi aut delectus corrupti, autem ipsum nobis?</small><br>
+                    <a href="#" class="btn">İndi Al &#8594;</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Haqqımızda -->
+    <div class="testimonial">
+        <div class="small-container">
+            <h2 class="title" id="about">Haqqımızda</h2>
+            <div class="row">
+                <a href="about.html">
+                    <div class="col-3">
+                        <i class="fa fa-quote-left"></i>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non eos sequi a, blanditiis voluptatibus assumenda, labore dignissimos soluta maxime officia est, quas animi neque nihil? Doloribus nisi culpa ducimus eius.</p>
+                        <div class="social-media">
+                            <a href="#" class="social-icon">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="#" class="social-icon">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="#" class="social-icon">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </div>
+                        <a href="about.html"><img src="images/3x4.png" alt=""></a>
+                        <a href="about.html"><h3>Abdulaziz</h3></a>
+                    </div>
+                </a>
+                <div class="col-3">
+                <i class="fa fa-quote-left"></i>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non eos sequi a, blanditiis voluptatibus assumenda, labore dignissimos soluta maxime officia est, quas animi neque nihil? Doloribus nisi culpa ducimus eius.</p>
+                    <div class="social-media">
+                        <a href="#" class="social-icon">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="social-icon">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="social-icon">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                    <img src="images/user-2.png" alt="">
+                    <h3>Admin</h3>
+                </div>
+                <div class="col-3">
+                <i class="fa fa-quote-left"></i>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non eos sequi a, blanditiis voluptatibus assumenda, labore dignissimos soluta maxime officia est, quas animi neque nihil? Doloribus nisi culpa ducimus eius.</p>
+                    <div class="social-media">
+                        <a href="#" class="social-icon">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="social-icon">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="social-icon">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                    <img src="images/user-3.png" alt="">
+                    <h3>Admin</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Markalar -->
+    <div class="brands">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-5">
+                    <img src="images/FedEx.png" alt="">
+                </div>
+                <div class="col-5">
+                    <img src="images/DHL.png">
+                </div>
+                <div class="col-5">
+                    <img src="images/Emirates.png">
+                </div>
+                <div class="col-5">
+                    <img src="images/turkish-airlines.png">
+                </div>
+                <div class="col-5">
+                    <img src="images/logo-paypal.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Mobil Tətbiqimizi Yükləyin</h3>
+                    <p>Mobil Tətbiqimizi Android və IOS Telefonlara Yükləyin</p>
+                    <div class="app-logo">
+                        <a href=""><img src="images/play-store.png" alt=""></a>
+                        <a href=""><img src="images/app-store.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="images/logo-white.png" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.Architecto facere velit quas deserunt animi, accusantium vitae adipisci ut, iure qui, nemo ullam minima quod.</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Faydalı Linklər</h3>
+                    <ul>
+                        <a href=""><li>Kuponlar</li></a>
+                        <a href=""><li>Blog Yazısı</li></a>
+                        <a href=""><li>Qaytarma Qaydası</li></a>
+                        <a href=""><li>Filiala Qoşulmaq</li></a>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Bizi İzləyin</h3>
+                    <ul>
+                        <a href=""><li><i class="fab fa-facebook"></i>Facebook</li></a>
+                        <a href=""><li><i class="fab fa-twitter"></i>Twitter</li></a>
+                        <a href=""><li><i class="fab fa-instagram"></i>Instagram</li></a>
+                        <a href=""><li><i class="fab fa-youtube"></i>YouTube</li></a>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">&#169; 2020-ci il Abduləzizin E-Ticarət Web-Səyfəsi</p>
+        </div>
+    </div>
+    <script src="menuToggle.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
